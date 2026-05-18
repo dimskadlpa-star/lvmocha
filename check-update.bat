@@ -11,7 +11,7 @@ if not "%LOCAL%"=="%REMOTE%" (
     echo ⚠️  WARNING: Remote repository has new updates!
     echo.
     echo Please pull changes:
-    echo   git p
+    echo   git pull origin main
     echo.
 ) else (
     echo ✓ Your branch is up-to-date with origin/main
